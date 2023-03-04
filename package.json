@@ -1,0 +1,32 @@
+{
+  "name": "doc-ur-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "prettier": "prettier-config-standard",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.7.1",
+    "pinia": "^2.0.30",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuetify": "^3.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "prettier-config-standard": "^5.0.0",
+    "standard": "^17.0.0",
+    "vite": "^4.1.0"
+  }
+}
